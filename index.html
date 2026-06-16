@@ -13,9 +13,9 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hermes — Website một trang</title>
+  <title>Hermes Agent — Bản giới thiệu một trang</title>
   <meta name="description" content="Bộ nhớ bền vững, lập lịch tự động và truy cập đa bề mặt — tất cả trên phần cứng do bạn kiểm soát. Tác nhân AI mã nguồn mở, self-hosted." />
-  <meta property="og:title" content="Hermes — Website một trang (không chính thức)" />
+  <meta property="og:title" content="Hermes Agent — Bản giới thiệu một trang (không chính thức)" />
   <meta property="og:description" content="Bộ nhớ bền vững, lập lịch tự động và truy cập đa bề mặt — tất cả trên phần cứng do bạn kiểm soát." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://nesquena.github.io/hermes-webui/" />
@@ -1514,7 +1514,7 @@
 
 <!-- Lightbox -->
 <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img" src="" alt="Screenshot preview" />
+  <img id="lightbox-img" src="" alt="Xem trước ảnh" />
 </div>
 
 <main>
@@ -1529,7 +1529,7 @@
         Hermes<br /><span class="accent">Agent</span>
       </h1>
       <p class="hero-sub">
-        The self-improving AI agent that runs on your server. Layered memory that accumulates across sessions, a cron scheduler that fires while you're offline, and a skills system that saves reusable procedures automatically.
+        Tác nhân AI tự cải tiến chạy ngay trên máy chủ của bạn. Bộ nhớ tích lũy qua nhiều phiên, cron chạy ngay cả khi bạn offline, và hệ thống kỹ năng tự lưu lại các quy trình có thể tái sử dụng.
       </p>
       <div class="hero-ctas">
         <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation" target="_blank" rel="noopener" class="btn-primary">
@@ -1547,7 +1547,7 @@
         <span class="stat-badge"><span class="dot"></span>Giấy phép MIT</span>
       </div>
       <p class="hero-credit">Được phát triển bởi <a href="https://nousresearch.com" target="_blank" rel="noopener">Nous Research</a></p>
-      <p class="hero-community-note">Website này không liên kết hoặc được Nous Research chứng thực. Trang chính thức: <a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener">hermes-agent.nousresearch.com</a></p>
+      <p class="hero-community-note">Website này là bản dựng độc lập, không liên kết hoặc được Nous Research chứng thực. Trang chính thức: <a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener">hermes-agent.nousresearch.com</a></p>
     </div>
   </section>
 
@@ -1562,7 +1562,7 @@
           <div class="pillar-icon">&#129504;</div>
           <h3 class="pillar-title">Bộ nhớ tích lũy</h3>
           <div class="pillar-body">
-            <p>Layered memory system: user profile, agent memory, skills, and session history. All stored locally as readable, editable markdown files at <code style="font-family: 'JetBrains Mono', monospace; font-size: 0.85em;">~/.hermes/</code>.</p>
+            <p>Hệ thống bộ nhớ nhiều lớp gồm hồ sơ người dùng, bộ nhớ tác nhân, kỹ năng và lịch sử phiên. Tất cả được lưu cục bộ dưới dạng file markdown có thể đọc và chỉnh sửa tại <code style="font-family: 'JetBrains Mono', monospace; font-size: 0.85em;">~/.hermes/</code>.</p>
             <ul>
               <li>Sống sót qua mọi lần khởi động lại và thay đổi mô hình</li>
               <li>8 nhà cung cấp bộ nhớ ngoài tùy chọn</li>
@@ -1630,14 +1630,14 @@
         <div class="feature-tile">
           <div class="feature-icon">&#128218;</div>
           <div class="feature-title">Kỹ năng tự cải tiến</div>
-          <p class="feature-body">Tác nhân tự viết kỹ năng từ kinh nghiệm. Tương thích với chuẩn mở agentskills.io và có thể chia sẻ qua Skills Hub.</p>
+          <p class="feature-body">Tác nhân tự tạo kỹ năng từ kinh nghiệm thực tế. Tương thích với chuẩn mở agentskills.io và dễ dàng chia sẻ lại khi cần.</p>
           <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/skills" target="_blank" rel="noopener" class="feature-link">Tài liệu kỹ năng &#8594;</a>
         </div>
 
         <div class="feature-tile">
           <div class="feature-icon">&#128268;</div>
           <div class="feature-title">Tích hợp MCP</div>
-          <p class="feature-body">Kết nối với bất kỳ máy chủ MCP nào. Hermes cũng có thể tự public làm máy chủ MCP cho Claude Code, Cursor hoặc Codex.</p>
+          <p class="feature-body">Kết nối với bất kỳ máy chủ MCP nào. Hermes cũng có thể hoạt động như một máy chủ MCP cho Claude Code, Cursor hoặc Codex.</p>
           <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp" target="_blank" rel="noopener" class="feature-link">Tài liệu MCP &#8594;</a>
         </div>
 
@@ -1650,8 +1650,8 @@
 
         <div class="feature-tile">
           <div class="feature-icon">&#128421;</div>
-          <div class="feature-title">6 backend terminal</div>
-          <p class="feature-body">Local, Docker, SSH, Daytona, Singularity, Modal. Chạy thực thi ở bất cứ đâu từ VPS $5 đến serverless cloud, được sandbox khi cần.</p>
+          <div class="feature-title">6 môi trường thực thi</div>
+          <p class="feature-body">Local, Docker, SSH, Daytona, Singularity, Modal. Bạn có thể chạy ở bất cứ đâu, từ VPS giá rẻ đến môi trường đám mây, và cô lập khi cần.</p>
           <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/tools" target="_blank" rel="noopener" class="feature-link">Tài liệu backend &#8594;</a>
         </div>
 
@@ -1665,14 +1665,14 @@
         <div class="feature-tile">
           <div class="feature-icon">&#129309;</div>
           <div class="feature-title">Điều phối tác nhân</div>
-          <p class="feature-body">Khởi tạo Claude Code hoặc Codex làm sub-agent cho tác vụ mã hóa nặng. Kết quả gắn lại vào bộ nhớ Hermes. Hermes cũng chạy làm máy chủ MCP cho các công cụ khác.</p>
+          <p class="feature-body">Gọi Claude Code hoặc Codex làm sub-agent cho các tác vụ mã hóa nặng. Kết quả sẽ được đưa ngược lại vào bộ nhớ Hermes. Hermes cũng có thể làm máy chủ MCP cho các công cụ khác.</p>
           <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp" target="_blank" rel="noopener" class="feature-link">Tài liệu điều phối &#8594;</a>
         </div>
 
         <div class="feature-tile">
           <div class="feature-icon">&#128274;</div>
           <div class="feature-title">Mô hình bảo mật</div>
-          <p class="feature-body">Bảo mật 7 lớp: danh sách cho phép người dùng, phê duyệt lệnh nguy hiểm, isolate Docker, lọc thông tin đăng nhập MCP, quét chèn prompt, cách ly cross-session, làm sạch đầu vào.</p>
+          <p class="feature-body">Bảo mật 7 lớp: danh sách người dùng được phép, phê duyệt lệnh nguy hiểm, cô lập Docker, lọc thông tin đăng nhập MCP, quét prompt injection, cách ly giữa các phiên và làm sạch đầu vào.</p>
           <a href="https://hermes-agent.nousresearch.com/docs/user-guide/security" target="_blank" rel="noopener" class="feature-link">Tài liệu bảo mật &#8594;</a>
         </div>
 
@@ -1686,13 +1686,13 @@
       <p class="section-label">Giao diện Web Hermes</p>
       <h2 class="section-title">Một giao diện trình duyệt đẹp mắt cho Hermes</h2>
       <p class="section-body">
-        Đầy đủ tính năng, không cần bước build, không cần framework. Bố cục ba cột kiểu Claude với thanh bên phiên làm việc, khung chat và trình duyệt file workspace. Mọi thứ bạn làm được từ terminal, bạn cũng có thể làm từ giao diện này.
+        Đầy đủ tính năng, không cần bước build, không phụ thuộc framework. Bố cục ba cột gồm danh sách phiên, khung chat và trình duyệt file workspace. Mọi thao tác quen thuộc trên terminal đều có thể thực hiện từ giao diện này.
         <a href="https://github.com/nesquena/hermes-webui" target="_blank" rel="noopener" style="margin-left: 6px;">GitHub &#8594;</a>
       </p>
 
       <!-- Hero screenshot -->
       <div class="showcase-hero" onclick="openLightbox(this.querySelector('img').src)">
-        <img src="images/ui-hero.png" alt="Hermes Web UI - three-panel layout with sessions, chat, and workspace" loading="lazy" />
+        <img src="images/ui-hero.png" alt="Hermes Web UI - bố cục ba cột với phiên, chat và workspace" loading="lazy" />
         <div class="showcase-hero-label">Bố cục ba cột &mdash; chế độ tối</div>
       </div>
 
@@ -1728,10 +1728,10 @@
             <div class="webui-feature-item">Xem trước file nội tuyến (mã, markdown, hình ảnh)</div>
             <div class="webui-feature-item">Chế độ sáng + tối</div>
             <div class="webui-feature-item">Bảo vệ mật khẩu</div>
-            <div class="webui-feature-item">Sẵn sàng SSH tunnel</div>
-            <div class="webui-feature-item">Docker image có sẵn</div>
+            <div class="webui-feature-item">Hỗ trợ SSH tunnel</div>
+            <div class="webui-feature-item">Có sẵn Docker image</div>
             <div class="webui-feature-item">Đầu vào giọng nói (Web Speech API)</div>
-            <div class="webui-feature-item">Responsive trên mobile</div>
+            <div class="webui-feature-item">Hiển thị tốt trên thiết bị di động</div>
           </div>
         </div>
 
@@ -1747,7 +1747,7 @@
                 <button class="copy-btn" onclick="copyCode(this)">Sao chép</button>
               </div>
               <pre><code class="language-bash">curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
-hermes model   # configure your LLM provider</code></pre>
+hermes model   # cấu hình nhà cung cấp LLM</code></pre>
             </div>
           </div>
 
@@ -1770,7 +1770,7 @@ cd hermes-webui
           <div>
             <div class="step-header">
               <div class="step-num" style="background: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border);">hoặc</div>
-              <div class="step-title">Tùy chọn Docker</div>
+              <div class="step-title">Cách dùng Docker</div>
             </div>
             <div class="code-wrap">
               <div class="code-header">
@@ -1789,17 +1789,17 @@ docker run -d \
           <div>
             <div class="step-header">
               <div class="step-num" style="background: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border);">&#8594;</div>
-              <div class="step-title">SSH tunnel (cho máy chủ từ xa)</div>
+              <div class="step-title">SSH tunnel cho máy chủ từ xa</div>
             </div>
             <div class="code-wrap">
               <div class="code-header">
                 <span class="code-lang">bash</span>
                 <button class="copy-btn" onclick="copyCode(this)">Sao chép</button>
               </div>
-              <pre><code class="language-bash">ssh -N -L 8787:127.0.0.1:8787 user@your-server</code></pre>
+              <pre><code class="language-bash">ssh -N -L 8787:127.0.0.1:8787 user@ten-may-chu</code></pre>
             </div>
             <p style="margin-top: 10px; font-size: 0.85rem; color: var(--text-secondary);">
-              Then visit <a href="http://localhost:8787" target="_blank" rel="noopener">http://localhost:8787</a>
+              Sau đó truy cập <a href="http://localhost:8787" target="_blank" rel="noopener">http://localhost:8787</a>
             </p>
           </div>
         </div>
@@ -1816,40 +1816,40 @@ docker run -d \
       <div class="install-layout">
         <div>
           <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.65;">
-            Works on <strong style="color: var(--text-primary);">Linux, macOS, WSL2, và Android (Termux)</strong>. On Windows, use WSL2 first.
+            Hoạt động trên <strong style="color: var(--text-primary);">Linux, macOS, WSL2 và Android (Termux)</strong>. Nếu dùng Windows, hãy cài WSL2 trước.
           </p>
 
           <div class="code-wrap">
             <div class="code-header">
-              <span class="code-lang">bash &mdash; one-liner install</span>
-              <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              <span class="code-lang">bash &mdash; cài đặt một dòng</span>
+              <button class="copy-btn" onclick="copyCode(this)">Sao chép</button>
             </div>
             <pre><code class="language-bash">curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash</code></pre>
           </div>
 
           <div class="code-wrap" style="margin-top: 16px;">
             <div class="code-header">
-              <span class="code-lang">bash &mdash; first run</span>
-              <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              <span class="code-lang">bash &mdash; chạy lần đầu</span>
+              <button class="copy-btn" onclick="copyCode(this)">Sao chép</button>
             </div>
-            <pre><code class="language-bash">source ~/.bashrc      # reload shell
-hermes model          # choose your LLM provider
-hermes                # start chatting</code></pre>
+            <pre><code class="language-bash">source ~/.bashrc      # nạp lại shell
+hermes model          # chọn nhà cung cấp LLM
+hermes                # bắt đầu trò chuyện</code></pre>
           </div>
 
           <div class="code-wrap" style="margin-top: 16px;">
             <div class="code-header">
-              <span class="code-lang">bash &mdash; key commands</span>
-              <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              <span class="code-lang">bash &mdash; lệnh quan trọng</span>
+              <button class="copy-btn" onclick="copyCode(this)">Sao chép</button>
             </div>
-            <pre><code class="language-bash">hermes model          # choose LLM provider and model
-hermes tools          # configure enabled tools
-hermes gateway setup  # set up messaging platforms
-hermes doctor         # diagnose any issues</code></pre>
+            <pre><code class="language-bash">hermes model          # chọn nhà cung cấp và model
+hermes tools          # cấu hình công cụ bật
+hermes gateway setup  # thiết lập nền tảng nhắn tin
+hermes doctor         # chẩn đoán sự cố</code></pre>
           </div>
 
           <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation" target="_blank" rel="noopener" class="docs-link">
-            Full installation guide &#8594;
+            Hướng dẫn cài đặt đầy đủ &#8594;
           </a>
         </div>
 
@@ -1906,7 +1906,7 @@ hermes doctor         # diagnose any issues</code></pre>
           </div>
           <div class="platforms-note">
             <span>&#9889;</span>
-            Run <code style="font-family: 'JetBrains Mono', monospace; font-size: 0.85em;">hermes model</code> to browse and authenticate interactively
+            Chạy <code style="font-family: 'JetBrains Mono', monospace; font-size: 0.85em;">hermes model</code> để duyệt và xác thực tương tác
           </div>
         </div>
       </div>
@@ -1919,39 +1919,39 @@ hermes doctor         # diagnose any issues</code></pre>
     <div class="container">
       <p class="section-label">Chạy nó ở đâu</p>
       <h2 class="section-title">Tùy chọn hosting</h2>
-      <p class="section-sub">Hermes is self-hosted by design &#8212; it runs phần cứng bạn kiểm soátrol. Here are the most practical ways to get it running, from zero-setup managed hosting to a bare VPS.</p>
+      <p class="section-sub">Hermes được thiết kế để tự lưu trữ &#8212; chạy trên phần cứng do bạn kiểm soát. Dưới đây là những cách thực tế nhất để triển khai, từ dịch vụ quản lý sẵn đến VPS tự vận hành.</p>
 
       <div class="hosting-grid">
 
         <!-- Agent37: featured — genuinely cheapest + easiest purpose-built option -->
         <a class="hosting-card featured" href="https://agent37.com" target="_blank" rel="noopener">
-          <div class="hosting-badge">&#9733; Easiest option</div>
+          <div class="hosting-badge">&#9733; Dễ nhất</div>
           <div class="hosting-card-icon">&#9889;</div>
           <div class="hosting-card-title">Agent37</div>
           <div class="hosting-card-price">Từ $3.99/tháng</div>
           <p class="hosting-card-desc">Dịch vụ lưu trữ Hermes được quản lý &#8212; hoạt động sau 60 giây mà không cần cấu hình VPS. Đây là nhà cung cấp duy nhất được xây dựng riêng cho Hermes, với quyền truy cập terminal đầy đủ, trình duyệt file trực quan và chế độ xem trình duyệt trực tiếp trên mọi gói.</p>
           <ul class="hosting-card-features">
-            <li>Container Docker isolate cho mỗi người dùng</li>
+            <li>Container Docker cô lập cho từng người dùng</li>
             <li>Terminal đầy đủ + trình duyệt file trên mọi gói</li>
             <li>Tích hợp Brave search & Composio đi kèm</li>
-            <li>Bring your own API key (Claude, OpenAI, Gemini&#8230;)</li>
+            <li>Dùng API key của riêng bạn (Claude, OpenAI, Gemini&#8230;)</li>
             <li>Xem trình duyệt trực tiếp: xem tác nhân làm việc theo thời gian thực</li>
           </ul>
-          <span class="hosting-card-cta">Visit agent37.com &#8594;</span>
+          <span class="hosting-card-cta">Truy cập agent37.com &#8594;</span>
         </a>
 
         <!-- VPS self-hosted -->
         <div class="hosting-card">
           <div class="hosting-card-icon">&#128421;</div>
-          <div class="hosting-card-title">VPS &#8212; self-hosted</div>
+          <div class="hosting-card-title">VPS &#8212; tự lưu trữ</div>
           <div class="hosting-card-price">~$4&#8211;8/mo</div>
           <p class="hosting-card-desc">Kiểm soát hoàn toàn với chi phí tương đương. Hetzner CX22 là lựa chọn khuyến nghị: 4 GB RAM, 2 vCPU, 40 GB SSD, 20 TB băng thông. Thêm Coolify để deploy một cú nhấp chuột từ GitHub mà không cần làm việc Docker thủ công.</p>
           <ul class="hosting-card-features">
-            <li>Hetzner CX22 (~$4.50/mo) &#8212; best price-performance</li>
+            <li>Hetzner CX22 (~$4.50/tháng) &#8212; hiệu năng/giá tốt</li>
             <li>Coolify cho deploy GitHub dễ dàng (miễn phí, mã nguồn mở)</li>
             <li>Vultr, DigitalOcean, Linode đều hoạt động từ $5/tháng</li>
             <li>Truy cập root đầy đủ, không khóa nhà cung cấp</li>
-            <li>Docker hoặc bare metal, bất kỳ distro Linux nào</li>
+            <li>Docker hoặc bare metal, trên hầu hết distro Linux</li>
           </ul>
           <a class="hosting-card-cta" href="https://hermes-agent.nousresearch.com/docs/getting-started/installation" target="_blank" rel="noopener">Tài liệu cài đặt &#8594;</a>
         </div>
@@ -1963,9 +1963,9 @@ hermes doctor         # diagnose any issues</code></pre>
           <div class="hosting-card-price">$5&#8211;7/mo</div>
           <p class="hosting-card-desc">Deploy git-push không cần quản trị máy chủ. Tốt nếu bạn muốn bỏ qua hạ tầng hoàn toàn. Railway, Render và Fly.io đều hỗ trợ Node.js và Python với SSL và domain tự động.</p>
           <ul class="hosting-card-features">
-            <li>Railway Hobby &#8212; $5/mo, connect GitHub, auto-deploy</li>
-            <li>Render &#8212; free tier available (sleeps on inactivity)</li>
-            <li>Fly.io &#8212; Docker-native, 30+ global regions</li>
+            <li>Railway Hobby &#8212; $5/tháng, kết nối GitHub, tự động deploy</li>
+            <li>Render &#8212; có gói miễn phí (tạm ngủ khi không hoạt động)</li>
+            <li>Fly.io &#8212; tối ưu cho Docker, 30+ khu vực toàn cầu</li>
             <li>Không cần SSH hoặc quản trị máy chủ</li>
             <li>CI/CD tích hợp trên mọi git push</li>
           </ul>
